@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashish Kumar | Portfolio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b1020;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 20px 8%;
+      background: #111a2e;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    header h2 {
+      color: #66e3d2;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+    }
+
+    section {
+      padding: 65px 8%;
+    }
+
+    .hero {
+      min-height: 65vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .hero h1 {
+      font-size: clamp(36px, 6vw, 60px);
+      margin: 15px 0;
+    }
+
+    .highlight {
+      color: #66e3d2;
+    }
+
+    p {
+      color: #c1c9da;
+      margin: 12px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 12px 22px;
+      background: #66e3d2;
+      color: #0b1020;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .card {
+      background: #151f35;
+      border: 1px solid #293651;
+      border-radius: 12px;
+      padding: 22px;
+      margin-top: 18px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #111a2e;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h2>Ashish Kumar</h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <p>HELLO, WELCOME TO MY PORTFOLIO</p>
+    <h1>Hi, I'm Ashish<br>
+      <span class="highlight">Web Developer in Progress</span>
+    </h1>
+    <p>
+      I'm a B.Tech Computer Science Engineering student
+      learning web development and programming.
+    </p>
+    <div>
+      <a class="btn" href="#about">Explore My Portfolio</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        My name is Ashish Kumar. I am a second-year
+        B.Tech Computer Science Engineering student
+        at Sandip University, Madhubani.
+      </p>
+      <p>
+        I enjoy learning technology, developing my
+        programming skills, and creating websites.
+        My goal is to become a skilled software developer.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="card">
+      <p>HTML — Learning</p>
+      <p>CSS — Learning</p>
+      <p>JavaScript — Learning</p>
+      <p>Web Development</p>
+      <p>C Programming — Learning</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="card">
+      <h3>B.Tech — Computer Science Engineering</h3>
+      <p>Sandip University, Madhubani</p>
+      <p>Currently studying in Second Year</p>
+    </div>
+    <div class="card">
+      <h3>Projects</h3>
+      <p>
+        I am learning web development and preparing
+        to build my first projects.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="card">
+      <p>Have an opportunity or idea? Let's connect!</p>
+      <p>Email: aaaashish2004@gmail.com</p>
+      <a class="btn"
+         href="mailto:aaaashish2004@gmail.com">
+        Send Me an Email
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Ashish Kumar | Personal Portfolio</p>
+  </footer>
+
+</body>
+</html>
